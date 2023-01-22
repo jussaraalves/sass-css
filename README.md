@@ -8,13 +8,16 @@ O SASS é uma linguagem de extensão do CSS, que nos permite fazer coisas muito 
 Uma vez instalado o Sass, você pode compilar seu Sass para CSS usando o comando sass. Você precisará informar ao Sass de qual arquivo construir e para onde enviar o CSS.
 - sass input.scss output.css
 
-O --watch diz ao Sass para monitorar seus arquivos de origem quanto a alterações e recompilar o CSS toda vez que você salvar seu Sass. para isso basta adicionar o watch ao seu comando, assim:
+O watch diz ao Sass para monitorar seus arquivos de origem quanto à alterações e recompilar o CSS toda vez que você salvar seu Sass. para isso basta adicionar o watch ao seu comando, assim:
 - sass --watch input.scss:output.css
+
+Você também poderá compilar todos os arquivos de uma só vez usando o comando:
+- sass --watch .
 
 ## Nesting (Aninhamento)
 O Sass permitirá que você alinhe e organize seus seletores CSS de uma forma que siga a mesma hierarquia visual do seu HTML, e o Sass trás esse aninhamento de forma a facilitar a sua visão sobre o código.
 
-pensando nisso segue abaixo um exemplo de organizacao scss:
+pensando nisso, segue abaixo um exemplo de código de estilização mais organizado em scss:
 
 ```Sass
   nav {

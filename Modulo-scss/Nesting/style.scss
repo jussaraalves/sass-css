@@ -6,12 +6,10 @@ p{
     p{
         background-color: black;
     }
-}
 
-p{
-    background: red;
-}
+    &:hover{
+        color: #fff;
+    }
 
-body{
-    color: aqua;
+
 }

@@ -4,13 +4,8 @@ p span {
 p p {
   background-color: black;
 }
-
-p {
-  background: red;
-}
-
-body {
-  color: aqua;
+p:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
